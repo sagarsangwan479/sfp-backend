@@ -7,7 +7,7 @@ dotenv.config();
 var Auth = () => {};
 
 const generateOtp = () => {
-  
+  let numb = Math.random();
 }
 
 Auth.backendUserLogin = (postData) => {
