@@ -1,4 +1,4 @@
-var User = require("../models/userModel")
+var User = require("../models/backendUserModel")
 
 exports.getMenuList = async (req,res) => {
     var menuList = await User.getMenuList()
